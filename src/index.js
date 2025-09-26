@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://gabrielsiqueira311_db_user:Binho2010@starwars-api.lonjzvo.mongodb.net/?retryWrites=true&w=majority&appName=StarWars-API');
+mongoose.connect('mongodb+srv://<db_user>:<db_password>@starwars-api.lonjzvo.mongodb.net/?retryWrites=true&w=majority&appName=StarWars-API');
 
 const app = express();
 app.use(express.json());
